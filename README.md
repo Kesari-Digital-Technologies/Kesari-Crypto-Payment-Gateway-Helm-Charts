@@ -1,10 +1,20 @@
-# Kesari Crypto Payment Gateway Helm Charts
-
 ## Usage
 
-Helm must be installed to use these charts. Please refer to [Helm’s documentation](https://helm.sh/docs/intro/install/) to get started.
+[Helm](https://helm.sh) must be installed to use the charts.  Please refer to
+Helm's [documentation](https://helm.sh/docs) to get started.
 
-Once Helm is set up, add the Kesari Helm repo:
+Once Helm has been set up correctly, add the repo as follows:
 
-```bash
-helm repo add kesari https://kesari-digital-technologies.github.io/Kesari-Crypto-Payment-Gateway-Helm-Charts
+    helm repo add vsys-host https://kesari-digital-technologies.github.io/Kesari-Crypto-Payment-Gateway-Helm-Charts
+
+If you had already added this repo earlier, run `helm repo update` to retrieve
+the latest versions of the packages.  You can then run `helm search repo
+vsys-host` to see the charts.
+
+To install the Kesari Crypto Payment Gateway chart:
+
+    helm install my-kesaricryptopaymentgateway kersarisocial/kesari-crypto-payment-gateway
+
+To uninstall the chart:
+
+    helm delete my-kesaricryptopaymentgateway
