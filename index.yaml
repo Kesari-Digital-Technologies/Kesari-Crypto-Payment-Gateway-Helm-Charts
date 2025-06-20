@@ -9,6 +9,9 @@ entries:
     name: kesari-crypto-payment-gateway
     type: application
     urls:
-    - https://kesarisocial.github.io/helm-charts/kesari-crypto-payment-gateway-1.4.86.tgz
+    - https://kesari-digital-technologies.github.io/Kesari-Crypto-Payment-Gateway-Helm-Charts/charts/kesaricryptopaymentgateway/kesari-crypto-payment-gateway-1.4.86.tgz    
+    
+
+
     version: 1.4.86
 generated: "2025-06-20T05:00:27.8045666+04:00"
